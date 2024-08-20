@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Brac - Customer Order Page</title>
+    <link rel="stylesheet" href="/P-K/customer/c1styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="pizza-brac-title">Pizza Brac</h1>
+        <div class="collaboration">
+
+        </div>
+    </header>
+    <main>
+        <section id="menu-items" class="card-container">
+            <!-- Menu items will be displayed here -->
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items" class="card-container">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <p>Total Price: $<span id="total-price">0</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </section>
+        <section id="order-form" class="hidden">
+            <h2>Place Your Order</h2>
+            <label for="customer-name">Name:</label>
+            <input type="text" id="customer-name">
+            <label for="customer-contact">Contact:</label>
+            <input type="text" id="customer-contact">
+            <button id="place-order-btn">Place Order</button>
+        </section>
+        <section id="order-status" class="hidden">
+            <h2>Order Status</h2>
+            <p>Order ID: <span id="order-id"></span></p>
+            <p>Status: <span id="status"></span></p>
+            <section id="payment" class="hidden">
+                <h3>Payment</h3>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number">
+                <button id="pay-btn">Pay</button>
+            </section>
+        </section>
+    </main>
+    <script src="/P-K/customer/c1script.js"></script>
+</body>
+</html>

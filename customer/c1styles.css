@@ -1,0 +1,117 @@
+/* General Body and Header Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #E64A19; /* Orange background */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+}
+
+.pizza-brac-title {
+    font-family: 'Grey Qo', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+
+.collaboration {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: right;
+}
+
+.collaboration span {
+    display: block;
+    font-size: 12px;
+}
+
+.collaboration img {
+    width: 50px; /* Adjust the size of the logo */
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Card Container Styling */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid #ddd; /* Light border for cards */
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Button Styling */
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Checkout Button */
+#checkout-btn {
+    background-color: #E64A19; /* Orange background */
+    color: white; /* White text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#checkout-btn:hover {
+    background-color: #d84315; /* Darker orange on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Place Order Button */
+#place-order-btn {
+    background-color: #FF4500; /* Slightly darker orange */
+    color: white; /* White text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#place-order-btn:hover {
+    background-color: #FF6347; /* Even darker orange on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Pay Button */
+#pay-btn {
+    background-color: #FF5722; /* Bright orange */
+    color: white; /* White text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#pay-btn:hover {
+    background-color: #E64A19; /* Darker orange on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
